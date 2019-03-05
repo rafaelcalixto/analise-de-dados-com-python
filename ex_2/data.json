@@ -1,0 +1,36 @@
+{
+    "result": {
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "fiat": false,
+      "markets": {
+        "base": [
+          {
+            "exchange": "bitfinex",
+            "pair": "btcusd",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/bitfinex/btcusd"
+          },
+          {
+            "exchange": "coinbase-pro",
+            "pair": "btcusd",
+            "route": "https://api.cryptowat.ch/markets/coinbase-pro/btcusd"
+          }
+        ],
+        "quote": [
+          {
+            "exchange": "bitfinex",
+            "pair": "ltcbtc",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/bitfinex/ltcbtc"
+          },
+          {
+            "exchange": "bitfinex",
+            "pair": "ethbtc",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/bitfinex/ethbtc"
+          }
+        ]
+      }
+    }
+  }

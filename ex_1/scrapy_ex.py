@@ -1,3 +1,7 @@
+### CURSO DE ANÁLISE DE DADOS COM PYTHON - CERTI
+### RAFAEL CALIXTO
+### AQUISIÇÃO DE DADOS DA WEB
+
 from scrapy import Spider
 
 class Example(Spider):
